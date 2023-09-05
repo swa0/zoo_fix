@@ -1,0 +1,25 @@
+.mainPage {
+    width: 100%;
+    min-width: 1400px;
+    height: auto;
+
+    .fixBox {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+
+        p {
+            color: #fff;
+            font-size: 25px;
+            letter-spacing: 5px;
+            line-height: 2;
+            text-align:justify
+        }
+
+        .logo {
+            width: 251px;
+            height: 89px;
+            margin: 80px auto 0;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+//bg
+.bg {
+    background: url('../images/background.png') no-repeat center;
+    background-size: cover;
+}
+
+//logo
+.mainPage .fixrBox .logo {
+    background: url("../images/logo.png") no-repeat center;
+    background-size: contain;
+}
