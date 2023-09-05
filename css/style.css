@@ -1,14 +1,4 @@
 @charset "UTF-8";
-.bg {
-  background: url("../images/background.png") no-repeat center;
-  background-size: cover;
-}
-
-.mainPage .fixBox .logo {
-  background: url("../images/logo.png") no-repeat center;
-  background-size: contain;
-}
-
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -120,32 +110,34 @@ html body {
   width: 100%;
   height: auto;
 }
-html body .mainPage {
+html body main {
+  width: 100%;
+  height: auto;
+  padding-top: 80px;
+}
+html body main.mainPage {
   width: 100%;
   min-width: 650px;
   height: auto;
 }
-html body .mainPage .fixBox {
+html body main.mainPage .fixBox {
   width: 60%;
   height: auto;
   margin: 0 auto;
 }
-html body .mainPage .fixBox p {
+html body main.mainPage .fixBox p {
   color: #fff;
   font-size: 30px;
   letter-spacing: 5px;
   line-height: 1.5;
   text-align: justify;
 }
-html body .mainPage .fixBox .logo {
+html body main.mainPage .fixBox .logo {
   width: 251px;
   height: 89px;
   margin: 80px auto 0;
-}
-html body main {
-  width: 100%;
-  height: auto;
-  padding-top: 80px;
+  background: url("../images/logo.png") no-repeat center;
+  background-size: contain;
 }
 html body .bg {
   width: 100%;
@@ -154,16 +146,24 @@ html body .bg {
   top: 0;
   left: 0;
   z-index: -999;
+  background: url("../images/background.png") no-repeat center;
+  background-size: cover;
 }
 
 @media only screen and (max-width: 820px) {
-  html body .mainPage {
+  html body main {
+    padding: 50px 50px 0;
+  }
+  html body main.mainPage {
     min-width: unset;
   }
-  html body .mainPage .fixBox p {
-    font-size: 3.6vw;
+  html body main.mainPage .fixBox {
+    width: 100%;
   }
-  html body .mainPage .fixBox .logo {
+  html body main.mainPage .fixBox p {
+    font-size: 4.6vw;
+  }
+  html body main.mainPage .fixBox .logo {
     width: 40vw;
     height: 16vw;
     margin: 50px auto 0;
