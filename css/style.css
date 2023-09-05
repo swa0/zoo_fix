@@ -122,7 +122,7 @@ html body {
 }
 html body .mainPage {
   width: 100%;
-  min-width: 1400px;
+  min-width: 650px;
   height: auto;
 }
 html body .mainPage .fixBox {
@@ -132,14 +132,14 @@ html body .mainPage .fixBox {
 }
 html body .mainPage .fixBox p {
   color: #fff;
-  font-size: 25px;
+  font-size: 3.6vw;
   letter-spacing: 5px;
-  line-height: 2;
+  line-height: 1.5;
   text-align: justify;
 }
 html body .mainPage .fixBox .logo {
-  width: 251px;
-  height: 89px;
+  width: 40vw;
+  height: 40vw;
   margin: 80px auto 0;
 }
 html body main {
